@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    background-color: rgb(107, 163, 112); 
+}
+
+.formulario {
+    width: 50%; 
+    max-width: 500px;
+    padding: 20px;
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+    border-radius: 10px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    
+}
+.grid-container h2 {
+    margin-bottom: 10px;
+}
+
+.grid-container p {
+    margin: 5px 0;
+}
+.pesoValue, .alturaValue{
+    width: 190%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+.tituloIMC{
+    width: 250px;
+}
+.botaoCalculo{
+    width: 193%;
+    height: 25px;
+    border: 1px solid gray;
+    background-color: rgb(107, 163, 112);
+    border-radius: 7px;
+}
+.divResultado{
+    width: 26.5%;
+    background-color: rgb(94, 180, 94);
+}
+
